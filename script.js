@@ -1,5 +1,5 @@
 document.getElementById("cta-btn").addEventListener("click", () => {
-  alert("You clicked Get Started! (Placeholder for real action)");
+  // alert("You clicked Get Started! (Placeholder for real action)");
 });
 
 document.getElementById("contact-form").addEventListener("submit", function (e) {

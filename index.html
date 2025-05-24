@@ -1,63 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Awesome Website</title>
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <header>
-    <nav class="navbar">
-      <div class="logo">YourLogo</div>
-      <ul class="nav-links">
-        <li><a href="#hero">Home</a></li>
-        <li><a href="#features">Features</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
 
-  <section id="hero" class="hero">
-    <div class="hero-content">
-      <h1>Welcome to <span class="highlight">Your Site</span></h1>
-      <p>A short description of what you offer.</p>
-      <button id="cta-btn">Get Started</button>
-    </div>
-  </section>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shron Labs</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-  <section id="features" class="features">
-    <h2>Features</h2>
-    <div class="features-grid">
-      <div class="feature-card">
-        <h3>Feature One</h3>
-        <p>Placeholder text for feature one.</p>
+  <body>
+    <header>
+      <section id="hero" class="hero">
+        <img class="logo" src="./logo.png"> </img>
+        <div class="hero-content">
+          <h1>Welcome to <span class="highlight">Shron Labs</span></h1>
+          <p>Experiment To Learn Software Development</p>
+          <!-- <button id="cta-btn">Get Started</button> -->
+        </div>
+      </section>
+    </header>
+
+    <section id="features" class="features">
+      <h2>My Experiments</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <h3>Resume Builder</h3>
+          <p>Create and Download Resume</p>
+          <button id="cta-btn"> <a href="https://cvbuilder.shronlabs.me/">Visit </a></button>
+        </div>
+        <div class="feature-card">
+          <h3>Portfolio Website</h3>
+          <p>Take a Look at My Portfolio Website</p>
+          <button id="cta-btn"> <a href="https://portfolio.shronlabs.me/">Visit </a></button>
+        </div>
+        <div class="feature-card">
+          <h3>Microservices</h3>
+          <p>Implementation of Basic Microservices Architecture</p>
+          <button id="cta-btn"> <a href="https://github.com/Codeansh/Auctionize">Visit </a></button>
+        </div>
       </div>
-      <div class="feature-card">
-        <h3>Feature Two</h3>
-        <p>Placeholder text for feature two.</p>
-      </div>
-      <div class="feature-card">
-        <h3>Feature Three</h3>
-        <p>Placeholder text for feature three.</p>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="contact" class="contact">
-    <h2>Contact Us</h2>
-    <form id="contact-form">
-      <input type="text" placeholder="Your Name" required />
-      <input type="email" placeholder="Your Email" required />
-      <textarea placeholder="Your Message" required></textarea>
-      <button type="submit">Send</button>
-    </form>
-  </section>
+    <footer>
+      <p>© 2025 ShronLabs. All rights reserved.</p>
+    </footer>
 
-  <footer>
-    <p>© 2025 YourSite. All rights reserved.</p>
-  </footer>
+    <script src="script.js"></script>
+  </body>
 
-  <script src="script.js"></script>
-</body>
 </html>
